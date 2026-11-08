@@ -1,0 +1,148 @@
+
+/* GENERAL STYLING */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* NAVIGATION */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 950px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* SECTIONS */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #172554;
+}
+
+
+/* PROJECT ARTICLES */
+
+article {
+    background-color: #eef2ff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+
+/* CONTACT FORM */
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font: inherit;
+}
+
+button {
+    background-color: #172554;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: inherit;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* KEYBOARD ACCESSIBILITY */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+    nav li {
+        display: block;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+}
