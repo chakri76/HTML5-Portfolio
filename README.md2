@@ -1,0 +1,157 @@
+# Personal Portfolio Website
+### HTML5 Semantic Structure & Accessibility
+
+## 📌 Project Overview
+
+This project is a multi-page personal portfolio website developed using modern HTML5 and CSS3.
+
+The main objective is to build a well-structured, accessible, and SEO-friendly website by following semantic HTML5 standards and WCAG accessibility guidelines.
+
+The website introduces personal information, technical skills, projects, and contact details.
+
+## 🎯 Project Objectives
+
+- Understand modern HTML5 semantic elements.
+- Create a multi-page personal portfolio website.
+- Implement accessibility features using ARIA attributes.
+- Develop an accessible, keyboard-navigable contact form.
+- Apply SEO-friendly meta tags.
+- Improve website usability and responsiveness.
+- Test website quality using Google Lighthouse.
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Visual Studio Code
+- Google Chrome
+- Google Lighthouse
+
+## 📂 Project Structure
+
+```text
+personal-portfolio/
+│
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
+├── style.css
+└── README.md
+```
+
+## 🌟 Key Features
+
+### 1. Semantic HTML5 Structure
+Uses meaningful HTML5 elements:
+
+- `<header>` – Website header.
+- `<nav>` – Navigation menu.
+- `<main>` – Main page content.
+- `<section>` – Groups related content.
+- `<article>` – Independent project content.
+- `<footer>` – Website footer.
+
+### 2. Accessibility Features
+
+- ARIA labels for navigation.
+- Proper labels for form fields.
+- Keyboard-friendly navigation.
+- Visible keyboard focus indicators.
+- Meaningful heading structure.
+- Accessible form controls.
+
+### 3. SEO Optimization
+
+- Meaningful page titles.
+- Meta descriptions.
+- UTF-8 character encoding.
+- Responsive viewport configuration.
+- Descriptive navigation links.
+
+### 4. Responsive Design
+
+The website uses CSS media queries to improve usability on desktop computers, tablets, and mobile devices.
+
+### 5. Contact Form
+
+The contact page includes:
+- Name field.
+- Email field.
+- Message field.
+- Required field validation.
+- Submit button.
+
+**Note:** The contact form is a front-end demonstration. A backend or form service is required to actually deliver messages.
+
+## 📄 Website Pages
+
+| Page | Description |
+|---|---|
+| Home | Introduction and welcome message |
+| About | Personal information and skills |
+| Projects | Programming projects |
+| Contact | Contact form |
+
+## 🚀 How to Run the Project
+
+1. Download or clone the project.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html`.
+4. Right-click and select Open with Live Server.
+5. The portfolio website will open in your browser.
+6. Navigate through the Home, About, Projects, and Contact pages.
+
+## 🧪 Testing and Validation
+
+The website can be tested using Google Chrome Lighthouse.
+
+Testing categories:
+
+- Accessibility
+- SEO
+- Best Practices
+- Performance
+
+**Expected Goal:** Achieve 100/100 in Lighthouse Accessibility and SEO audits.
+
+Note: These are target scores, not guaranteed results. Manual accessibility testing is also required to assess WCAG compliance.
+
+## ♿ Accessibility Standards
+
+This project aims to follow WCAG 2.2 Level AA principles:
+
+- Perceivable
+- Operable
+- Understandable
+- Robust
+
+## 📈 Learning Outcomes
+
+After completing this project, I learned:
+
+- Basics of HTML5 and CSS3.
+- Semantic website structure.
+- Accessibility and ARIA attributes.
+- Creating accessible HTML forms.
+- SEO optimization techniques.
+- Responsive website design.
+- Testing websites using Lighthouse.
+
+## 👨‍💻 Author
+
+**Name:** KANDYANA CHAKRADHAR
+
+**Project:** Personal Portfolio Website
+
+**Domain:** Web Development
+
+**Technologies:** HTML5 and CSS3
+
+## 📜 License
+
+This project is created for educational and learning purposes.
+
+---
+
+**Thank you for visiting my project!**
